@@ -2,6 +2,10 @@
 
 /**
  * binery_tree_node - Creates new node without child
+ *
+ * This function allocates a new node in memory,
+ * sets its value and parent, and initializes its children to NULL.
+ *
  * @parent: a poienter to the parent of the new node
  * @value: a value to be assigend to the new node
  *
