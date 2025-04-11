@@ -1,15 +1,15 @@
 #include "binary_trees.h"
 
 /**
- * binery_tree_node - Creates new node without child
+ * binary_tree_node - Creates a new binary tree node
  *
  * This function allocates a new node in memory,
  * sets its value and parent, and initializes its children to NULL.
  *
- * @parent: a poienter to the parent of the new node
- * @value: a value to be assigend to the new node
+ * @parent: A pointer to the parent node
+ * @value: The value to assign to the new node
  *
- * Return: the new node
+ * Return: A pointer to the new node, or NULL on failure
  */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
